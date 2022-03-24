@@ -84,6 +84,7 @@ function reset() {
     mints = 0;
     startcount = 0;
     timer.innerHTML = '0' + mints + ` : ${pr0}` + seconds + ' : ' + milsec + '0';
+    console.log(`hell yeah you won your time is ${time}`);
 } //reset
 let win = ''
 textplace.addEventListener('input', () => {
@@ -104,7 +105,6 @@ textplace.addEventListener('input', () => {
         paragraph.style.color = 'black'
     }
 })
-timer.addEventListener('inchange', alert("f"))
 
 
 
